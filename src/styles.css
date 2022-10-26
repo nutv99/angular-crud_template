@@ -2,9 +2,9 @@
 
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
-@import "./assets/custom.css";
+/* @import "./assets/custom.css"; */
 :root {
-  --table-color: seagreen;
+  --table-color: #006699;
   /*#588c7e*/
 }
 

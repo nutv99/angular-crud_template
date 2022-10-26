@@ -18,17 +18,17 @@
         <li class="nav-item dropdown">
           <a class="nav-link" routerLink="/" role="button"> Employees </a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" routerLink="/department" role="button">
+            แผนกสินค้า
+          </a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- main app container -->
-<div class="row">
-  <div class="col-md-3" style="height:150px;background:red">dddddddddd</div>
-  <div class="col-md-8">
-    <div class="app-container container-fluid">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
+<div class="app-container container-fluid">
+  <router-outlet></router-outlet>
 </div>

@@ -3,6 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { ClarityModule } from "@clr/angular";
+
+//import { CdsModule } from "@cds/angular";
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component' ;
 
@@ -21,6 +26,9 @@ import { AddeditComponent } from './employee/addedit/addedit.component' ;
     imports: [
         BrowserModule,
         AppRoutingModule,
+        BrowserAnimationsModule,
+        ClarityModule,
+        
         FormsModule,
         ReactiveFormsModule,
         HttpClientModule

@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: '', component: ListComponent },
   { path: 'employee/add', component: AddeditComponent },
   { path: 'employee/edit/:id', component: AddeditComponent },
-  { path: 'department', component: DepartmentComponent },
 ];
 
 @NgModule({
